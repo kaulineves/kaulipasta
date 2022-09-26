@@ -1,0 +1,67 @@
+*{
+    background-color: black;color:white;
+    margin: 0;padding: 0;
+  }
+  
+  header{
+    background-color:black;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  header ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  header ul li{
+    display: flex;
+    margin: 20px;
+    background-image: linear-gradient(red,white);
+    border-radius: 40px;
+    width: 100px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  header img{
+    height: 100%;
+    display: flex;
+    width: auto;
+  }
+  .baner{
+    margin: 30px;
+    height: 500px;
+    animation: slide1 05s infinite;
+    border-radius: 50px;
+  }
+
+@keyframes slide1{
+  0%,30%{
+    background-image: url(AP-Kanye-West.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+  }
+  35%,65%{
+    background-image: url(stefa.png);
+  }
+  70%,100%{
+    background-image: url(ye-2022-profile.png);
+  }
+
+}
+.local{
+    text-align: center;
+    margin: 30px;
+    border-radius: 50px;
+}
+iframe{
+  margin: 30px;
+}
